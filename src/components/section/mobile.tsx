@@ -38,8 +38,6 @@ const SectionMobileComponent: React.FC<ISectionMobileComponent> = ({
             <Image
               src={item.image.url}
               alt={`image_section_${index}`}
-              // width={item.image.width}
-              // height={item.image.height}
               fill
               style={{ objectFit: 'contain' }}
             />
